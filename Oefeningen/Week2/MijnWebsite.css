@@ -1,0 +1,44 @@
+body {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+
+ nav a{
+     color: F0F3BD;
+     font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+body article {
+    padding-left: 7%;
+}
+
+body footer {
+    padding-left: 7%;
+}
+
+header {
+    color: white;
+    background-color: blueviolet;
+    padding-left: 0%;
+}
+
+header h1 {
+    padding-left: 2%;
+}
+
+header h2 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;   
+    padding-left: 2%;
+}
+
+.eersteLetter {
+    color: black;
+}
+
+img[alt="pxl"] {
+    float: right;
+}

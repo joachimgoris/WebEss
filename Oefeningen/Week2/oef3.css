@@ -1,0 +1,17 @@
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: gray;
+    color: navy;
+    font-size: 12pt;
+}

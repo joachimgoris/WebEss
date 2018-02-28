@@ -1,0 +1,14 @@
+header {
+    color: green;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+hr {
+    color: green;
+    border-top: 100px;
+}
+
+img {
+    text-align: right;
+}
