@@ -1,0 +1,44 @@
+.art1 {
+    float: left;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.art2 {
+    float: left;
+    min-width: 200px;
+    max-width: 300px;;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.art3 {
+    float: left;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.art4 {
+    float: left;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+h1 {
+    font-weight: bold;
+}

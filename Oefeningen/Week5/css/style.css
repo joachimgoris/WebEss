@@ -1,0 +1,56 @@
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: medium;
+    background-color: lightgray;
+    margin: 0;
+}
+
+header {
+    background-color: darkgray;
+    padding: 1%;
+    margin: 0px;
+    border: 0px;
+}
+
+a {
+        text-decoration: none;
+}
+
+firstTitle {
+    font-weight: bold;
+    color: wheat;
+    font-size: larger;
+}
+
+secondTitle {
+    font-weight: bold;
+    color: green;
+    font-size: larger;
+}
+
+nav {
+    padding: 0;
+    width: 8%;
+}
+ul {
+    padding: 1%;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: auto;
+    padding: 1%;
+    text-align: center;
+    border: black 1px solid;
+}
+
+li a:hover {
+    background-color: #555;
+    color: lightgray;
+}
+
+.active {
+    background-color: darkgray;
+}
