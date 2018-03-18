@@ -1,12 +1,10 @@
 body {
     font-family: 'Space Mono', monospace;
     font-size: medium;
-    background-color: lightgray;
     margin: 0;
 }
 
 header {
-    background-color: darkgray;
     padding: 1%;
     margin: 0px;
     border: 0px;
@@ -16,41 +14,54 @@ a {
         text-decoration: none;
 }
 
-firstTitle {
+header firstTitle {
     font-weight: bold;
-    color: wheat;
+    color: darkgrey;
     font-size: larger;
 }
 
-secondTitle {
+header secondTitle {
     font-weight: bold;
     color: green;
     font-size: larger;
 }
 
 nav {
-    padding: 0;
-    width: 8%;
+    background-color: darkgrey;
 }
+
 ul {
-    padding: 1%;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
+li {
+    float: left;
+}
+
 li a {
-    text-decoration: none;
-    color: black;
     display: block;
-    width: auto;
-    padding: 1%;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+}
+
+main {
+    padding: 0;
+    width: 82%;
     text-align: center;
-    border: black 1px solid;
 }
 
-li a:hover {
-    background-color: #555;
-    color: lightgray;
+main h1 {
+    color: green;
+    font-family: 'Roboto', sans-serif;
 }
 
-.active {
-    background-color: darkgray;
+main h2 {
+    display: inline;
+    color: darkgrey;
+    font-family: 'Roboto', sans-serif;
 }
