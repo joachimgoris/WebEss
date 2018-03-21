@@ -57,6 +57,50 @@ img {
 	max-width: 100%;
 }
 
+@media screen and (max-width: 400px) {
+	.pagenavli {
+		float: left;
+		width: 100%;
+	}
+
+	#asideright {
+		display: none;
+	}
+
+	figure {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.pagenavli {
+		float: left;
+		width: 48%;
+	}
+	#asideright {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#page {
+		width: 100%;
+	}
+	#pagenav {
+		float: none;
+		width: 100%;
+	}
+	.pagenavli {
+		float: left;
+		width: 24%;
+	}
+	#articlecenter {
+		width: 100%;
+		display: block;
+	}
+}
+
 @media screen and (min-width: 1200px) {
 	#page {
 		width: 1200px;
