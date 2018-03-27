@@ -1,0 +1,39 @@
+form {
+    width: 50%;
+}
+label {
+    width: 100px;
+}
+#nameText {
+    float: left;
+}
+
+#firstnameText {
+    float: left;
+}
+
+#streetText {
+    float: left;
+}
+#numberbusNumber {
+    float: left;
+}
+#postNumber {
+    float: left;
+}
+#cityText {
+    float: left;
+}
+#provinceText {
+    float: left;
+    display: block;
+}
+#buttons {
+    float: left;
+}
+ul {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+

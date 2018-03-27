@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulieren</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="oef1.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="mailto:11700025@student.pxl.be" method="POST" enctype="text/plain">
+        <table>
+            <ul>
+                <div id="nameText">
+                    <label>Naam:</label>
+                    <input type="text" />
+                </div>
+            </ul>
+            <ul>
+                <div  id="firstnameText">
+                    <label>Voornaam:</label>
+                    <input type="text" />
+                </div>
+            </ul>
+            <br/>
+            <ul>
+                <div  id="streetText" >
+                    <label>Straat:</label>
+                    <input type="text"/>
+                </div>
+            </ul>
+            <ul>
+                <div  id="numberbusNumber">
+                    <label>Nummer:</label>
+                    <input type="number" max="99999"/>
+                    <label>Bus:</label>
+                    <input type="number" max="9999"/>
+                </div>
+            </ul>
+            <ul>
+                <div  id="postNumber">
+                    <label>Postnummer:</label>
+                    <input type="number" max="9999"/>
+                </div>
+            </ul>
+            <ul>
+                <div  id="cityText" >
+                    <label>Gemeente:</label>
+                    <input type="text"/>
+                </div>
+            </ul>
+            <ul>
+                <div  id="provinceText" >
+                    <label>Province:</label>
+                    <input type="text"/>
+                </div>
+            </ul>
+            <ul>
+                <div id="buttons">
+                    <input type="submit" id="zendButton" value="Zend">
+                    <input type="reset" id="wisButton" value="Alles Wissen">
+                </div>
+            </ul>
+        </table>
+    </form>
+</body>
+</html>
